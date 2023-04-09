@@ -1,0 +1,20 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "-e file:///${PROJECT_ROOT}/packages/a#egg=example-app-a",
+    "-e file:///${PROJECT_ROOT}/packages/b#egg=example-app-b",
+    "-e file:///${PROJECT_ROOT}/packages/c#egg=example-app-c",
+    "-e file:///${PROJECT_ROOT}/packages/d#egg=example-app-d",
+    "-e file:///${PROJECT_ROOT}/packages/e#egg=example-app-e",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Nejc Skofic", email = "nejc.skofic@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.9"
+license = {text = "MIT"}

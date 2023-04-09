@@ -1,0 +1,17 @@
+[tool.pdm]
+
+[project]
+name = "example-app-a"
+version = "0.1.0"
+description = "Example package with no dependencies"
+authors = [
+    {name = "Nejc Skofic", email = "nejc.skofic@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
