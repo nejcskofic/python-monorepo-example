@@ -6,6 +6,10 @@ dev = [
     "-e file:///${PROJECT_ROOT}/packages/c#egg=example-app-c",
     "-e file:///${PROJECT_ROOT}/packages/d#egg=example-app-d",
     "-e file:///${PROJECT_ROOT}/packages/e#egg=example-app-e",
+    "nox>=2022.11.21",
+]
+test = [
+    "pytest>=7.3.0",
 ]
 
 [project]

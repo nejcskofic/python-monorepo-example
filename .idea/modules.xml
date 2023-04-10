@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/a/.idea/a.iml" filepath="$PROJECT_DIR$/packages/a/.idea/a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/b/.idea/b.iml" filepath="$PROJECT_DIR$/packages/b/.idea/b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/c/.idea/c.iml" filepath="$PROJECT_DIR$/packages/c/.idea/c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/d/.idea/d.iml" filepath="$PROJECT_DIR$/packages/d/.idea/d.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/e/.idea/e.iml" filepath="$PROJECT_DIR$/packages/e/.idea/e.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python-monorepo-example.iml" filepath="$PROJECT_DIR$/.idea/python-monorepo-example.iml" />
     </modules>
   </component>
